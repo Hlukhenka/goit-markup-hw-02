@@ -9,7 +9,7 @@
   --title-color: #ffffff;
   --footer-color: #2f303a;
   --button-color: #f5f4fa;
-  --secondary-accent-color:#188CE8;
+  --secondary-accent-color: #188ce8;
 }
 body {
   background-color: #ffffff;
@@ -85,8 +85,6 @@ body {
   color: var(--accent-color);
 }
 
-
-
 .header-link-cont {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -148,10 +146,10 @@ body {
   color: var(--secondary-text-color);
 }
 .portfolio-description {
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 /* footer */
 .footer-link:hover,
