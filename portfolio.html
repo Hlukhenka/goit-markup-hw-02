@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+  />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -25,7 +29,7 @@
               <a
                 href="./index.html"
                 rel="noopener noreferrer nofollow"
-                class="header-link"
+                class="link"
                 >Студія</a
               >
             </li>
@@ -33,7 +37,7 @@
               <a
                 href="./portfolio.html"
                 rel="noopener noreferrer nofollow"
-                class="link"
+                class="header-link link"
                 >Портфоліо</a
               >
             </li>
@@ -68,106 +72,161 @@
       <h1 hidden>Наші роботи</h1>
       <section class="portfolio-section">
         <div class="container">
-        <h2 hidden>Наші роботи</h2>
-        <ul class="list button-list">
-          <li class="link-button"><button type="button" class="button">Усі</button></li>
-          <li class="link-button"><button type="button" class="button">Веб-сайти</button></li>
-          <li class="link-button"><button type="button" class="button">Додатки</button></li>
-          <li class="link-button"><button type="button" class="button">Дизайн</button></li>
-          <li class="link-button"><button type="button" class="button">Маркетинг</button></li>
-        </ul>
+          <h2 hidden>Наші роботи</h2>
+          <ul class="list button-list">
+            <li class="link-button">
+              <button type="button" class="button">Усі</button>
+            </li>
+            <li class="link-button">
+              <button type="button" class="button">Веб-сайти</button>
+            </li>
+            <li class="link-button">
+              <button type="button" class="button">Додатки</button>
+            </li>
+            <li class="link-button">
+              <button type="button" class="button">Дизайн</button>
+            </li>
+            <li class="link-button">
+              <button type="button" class="button">Маркетинг</button>
+            </li>
+          </ul>
 
-        <ul class="list list-portfolio" >
-          <li class="card">
-            <a href="" class="list card-link">
-              <img src="./images/img7.jpg" alt="Технокряк" width="370" class="img" />
-              <h3 class="portfolio-title">Технокряк</h3>
-              <p class="portfolio-description">Веб-сайт</p>
-            </a>
-          </li>
-          <li class="card">
-            <a href="" class="list card-link">
-              <img
-                src="./images/img8.jpg"
-                alt="Постер New Orlean vs Golden Star"
-                width="370"
-                class="img"
-              />
-              <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h3>
-              <p class="portfolio-description">Дизайн</p>
-            </a>
-          </li>
-          <li class="card">
-            <a href="" class="list  card-link">
-              <img
-                src="./images/img9.jpg"
-                alt=">Ресторан Seafood"
-                width="370"
-                class="img"
-              />
-              <h3 class="portfolio-title">Ресторан Seafood</h3>
-              <p class="portfolio-description">Додаток</p>
-            </a>
-          </li>
-          <li class="card">
-            <a href="" class="list card-link ">
-              <img src="./images/img10.jpg" alt="Проєкт Prime" width="370" class="img"/>
-              <h3 class="portfolio-title">Проєкт Prime</h3>
-              <p class="portfolio-description">Маркетинг</p>
-            </a>
-          </li>
-          <li class="card">
-            <a href="" class="list card-link">
-              <img src="./images/img11.jpg" alt="Проєкт Boxes" width="370" class="img"/>
-              <h3 class="portfolio-title">Проєкт Boxes</h3>
-              <p class="portfolio-description">Додаток</p>
-            </a>
-          </li>
-          <li class="card">
-            <a href="" class="list card-link ">
-              <img
-                src="./images/img12.jpg"
-                alt="Inspiration has no Borders"
-                width="370"
-                class="img"
-              />
-              <h3 class="portfolio-title">Inspiration has no Borders</h3>
-              <p class="portfolio-description">Веб-сайт</p>
-            </a>
-          </li>
-          <li class="card">
-            <a href="" class="list card-link ">
-              <img
-                src="./images/img13.jpg"
-                alt="Видання Limited Edition"
-                width="370"
-                class="img"
-              />
-              <h3 class="portfolio-title">Видання Limited Edition</h3>
-              <p class="portfolio-description">Дизайн</p>
-            </a>
-          </li>
-          <li class="card">
-            <a href="" class="list card-link ">
-              <img src="./images/img14.jpg" alt="Проєкт LAB" width="370" class="img"/>
-              <h3 class="portfolio-title">Проєкт LAB</h3>
-              <p class="portfolio-description">Маркетинг</p>
-            </a>
-          </li>
-          <li class="card">
-            <a href="" class="list card-link ">
-              <img
-                src="./images/img15.jpg"
-                alt="Growing Business"
-                width="370"
-                class="img"
-              />
-              <h3 lang="eu" class="portfolio-title">Growing Business</h3>
-              <p class="portfolio-description">Додаток</p>
-            </a>
-          </li>
-        </ul>
-      </div>
+          <ul class="list list-portfolio">
+            <div class="card-portfolio">
+              <li class="card">
+                <a href="" class="list card-link">
+                  <img
+                    src="./images/img7.jpg"
+                    alt="Технокряк"
+                    width="370"
+                    class="img"
+                  />
+                  <h3 class="portfolio-title">Технокряк</h3>
+                  <p class="portfolio-description">Веб-сайт</p>
+                </a>
+              </li>
+            </div>
+            <div class="card-portfolio">
+              <li class="card">
+                <a href="" class="list card-link">
+                  <img
+                    src="./images/img8.jpg"
+                    alt="Постер New Orlean vs Golden Star"
+                    width="370"
+                    class="img"
+                  />
+                  <h3 class="portfolio-title">
+                    Постер New Orlean vs Golden Star
+                  </h3>
+                  <p class="portfolio-description">Дизайн</p>
+                </a>
+              </li>
+            </div>
+            <div class="card-portfolio">
+              <li class="card">
+                <a href="" class="list card-link">
+                  <img
+                    src="./images/img9.jpg"
+                    alt=">Ресторан Seafood"
+                    width="370"
+                    class="img"
+                  />
+                  <h3 class="portfolio-title">Ресторан Seafood</h3>
+                  <p class="portfolio-description">Додаток</p>
+                </a>
+              </li>
+            </div>
+            <div class="card-portfolio">
+              <li class="card">
+                <a href="" class="list card-link">
+                  <img
+                    src="./images/img10.jpg"
+                    alt="Проєкт Prime"
+                    width="370"
+                    class="img"
+                  />
+                  <h3 class="portfolio-title">Проєкт Prime</h3>
+                  <p class="portfolio-description">Маркетинг</p>
+                </a>
+              </li>
+            </div>
+
+            <div class="card-portfolio">
+              <li class="card">
+                <a href="" class="list card-link">
+                  <img
+                    src="./images/img11.jpg"
+                    alt="Проєкт Boxes"
+                    width="370"
+                    class="img"
+                  />
+                  <h3 class="portfolio-title">Проєкт Boxes</h3>
+                  <p class="portfolio-description">Додаток</p>
+                </a>
+              </li>
+            </div>
+
+            <div class="card-portfolio">
+              <li class="card">
+                <a href="" class="list card-link">
+                  <img
+                    src="./images/img12.jpg"
+                    alt="Inspiration has no Borders"
+                    width="370"
+                    class="img"
+                  />
+                  <h3 class="portfolio-title">Inspiration has no Borders</h3>
+                  <p class="portfolio-description">Веб-сайт</p>
+                </a>
+              </li>
+            </div>
+
+            <div class="card-portfolio">
+              <li class="card">
+                <a href="" class="list card-link">
+                  <img
+                    src="./images/img13.jpg"
+                    alt="Видання Limited Edition"
+                    width="370"
+                    class="img"
+                  />
+                  <h3 class="portfolio-title">Видання Limited Edition</h3>
+                  <p class="portfolio-description">Дизайн</p>
+                </a>
+              </li>
+            </div>
+
+            <div class="card-portfolio">
+              <li class="card">
+                <a href="" class="list card-link">
+                  <img
+                    src="./images/img14.jpg"
+                    alt="Проєкт LAB"
+                    width="370"
+                    class="img"
+                  />
+                  <h3 class="portfolio-title">Проєкт LAB</h3>
+                  <p class="portfolio-description">Маркетинг</p>
+                </a>
+              </li>
+            </div>
+
+            <div class="card-portfolio">
+              <li class="card">
+                <a href="" class="list card-link">
+                  <img
+                    src="./images/img15.jpg"
+                    alt="Growing Business"
+                    width="370"
+                    class="img"
+                  />
+                  <h3 lang="eu" class="portfolio-title">Growing Business</h3>
+                  <p class="portfolio-description">Додаток</p>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -181,7 +240,7 @@
           <span class="logo-text">Web</span>Studio</a
         >
         <address class="addres">
-          <ul class="list footer-list" >
+          <ul class="list footer-list">
             <li class="footer-li">
               <a
                 href="https://goo.gl/maps/xgTz5kR5NBUtv65ZA"
